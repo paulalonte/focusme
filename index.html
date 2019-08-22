@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Focus</title>
+        <script src="./index.js" defer></script>
+    </head>
+
+    <body onload="init();">
+        <main class="accessible-block">
+            <div class="focus-me">Content 1</div>
+            <div class="focus-me">Content 2</div>
+            <div class="focus-me">Content 3</div>
+        </main>
+    
+    
+    <script>
+        function init() {
+            console.log('init');
+            var obj = {};
+            obj.accessibleBlock = 'accessible-block';
+            obj.labels = ['content 1', 'content 2', 'content 3']
+            focusMe(obj);
+            
+        }
+    </script>
+    </body>
+</html>
