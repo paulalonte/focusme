@@ -21,6 +21,6 @@ focusme({
 
 focusme supports 2 options, accessibleBlock and labels:
 
-**accessibleblock** - _element group that will be accessible to users_
-**labels** - _array of labels to add name/label to an element. This if for screen readers to read_
+* *accessibleblock* - element group that will be accessible to users
+* *labels* - array of labels to add name/label to an element. This if for screen readers to read
 
