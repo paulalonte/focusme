@@ -15,6 +15,9 @@ focusme({
     accessibleBlock: 'accessible-block',
     labels: ['Label 1', 'Label 2', 'Label 3']
 });
+
+HTML element that needs focus should have a classname 'focus-me'
+e.g <div class='focus-me'>
 ```
 
 ##Options
