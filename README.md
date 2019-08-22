@@ -4,7 +4,7 @@ It adds focus to an element and adds label for accessibility
 
 #Installation
 
-`npm i focusme --save`
+`npm i focusmee --save`
 
 Then...
 
